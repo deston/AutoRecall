@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoRecall</string>
+    <string name="call">拨打</string>
+    <string name="number">号码:</string>
+    <string name="repeat_delay_lable">重复拨打间隔时间:</string>
+    <string name="unit_hint">单位：秒</string>
+    <string name="exit">退出</string>
+</resources>
