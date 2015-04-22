@@ -23,6 +23,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     private static final String TAG = "HomeActivity";
     public static boolean sIsCallActive;
     private static final String TEL_PREFIX = "tel:";
+    private static final String TIME_SCALE = 1000;
     /**
      * Called when the activity is first created.
      */
@@ -81,7 +82,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
     private void setPageData() {
         mNumber = mNumberEt.getEditableText().toString();
-        mDelay = Integer.parseInt(mRepeatDelayEt.getEditableText().toString()) * 1000;
+        mDelay = Integer.parseInt(mRepeatDelayEt.getEditableText().toString()) * TIME_SCALE;
     }
 
 }
